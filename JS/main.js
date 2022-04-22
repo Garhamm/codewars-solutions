@@ -12,3 +12,16 @@ function areYouPlayingBanjo(name) {
       return `${name} does not play banjo`
     }
   }
+
+//Convert number to reversed array of digits
+function digitize(n) {
+    let arr = n.toString().split('').reverse()
+    return arr.map(Number)
+  }
+ 
+// Beginner - Lost Without a Map
+function maps(x){
+    const newArr = x.map(currentValue => currentValue * 2)
+    return newArr
+  }
+
