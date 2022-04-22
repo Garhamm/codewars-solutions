@@ -61,3 +61,28 @@ var stringToNumber = function(str){
     return Number(str);
   }
 
+// Keep Hydrated!
+function litres(time) {
+    let literCalc = (time * .5)
+    return Math.floor(literCalc)
+   
+   }
+
+//Convert a Number to a String! 
+function numberToString(num) {
+    // Return a string of the number here!
+    return num.toString();
+  }
+
+// Square(n) Sum
+function squareSum(numbers){
+    return numbers.reduce((sum, num) => sum + (num * num ), 0);
+  }
+
+// Parse nice int from char problem
+function getAge(inputString){
+    // return the girl's correct age as an integer. Happy coding :) 
+      ageNumber = inputString.charAt(0)
+      parseInt(ageNumber)
+      return parseInt(ageNumber)
+    }
