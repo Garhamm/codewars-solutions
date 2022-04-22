@@ -86,3 +86,28 @@ function getAge(inputString){
       parseInt(ageNumber)
       return parseInt(ageNumber)
     }
+// Convert a string to an array
+function stringToArray(string){
+  let splitString = string.split(' ')
+  return splitString
+}
+
+// If you can't sleep, just count sheep!!
+var countSheep = function (num){
+  let count = ""
+  if(num === 0){
+    return count
+  }else if(num > 0){
+  for(let i = 1; i <= num; i++){
+    count += `${i} sheep...`
+  }
+  return count
+  }
+}
+
+// 8 kyu Function 3 - multiplying two numbers
+
+let multiply = function(num1, num2) {
+  return num1 * num2;
+}
+
