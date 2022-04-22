@@ -105,7 +105,7 @@ var countSheep = function (num){
   }
 }
 
-// 8 kyu Function 3 - multiplying two numbers
+// 8 kyu Function 3 - multiplying two numbersasdf
 
 let multiply = function(num1, num2) {
   return num1 * num2;
