@@ -25,3 +25,39 @@ function maps(x){
     return newArr
   }
 
+// Abbreviate a Two Word Name
+function abbrevName(name){
+    let nameSplit = name.split(' ');
+    let firstName = nameSplit.shift();
+    let lastName = nameSplit.pop();
+    let firstInitial = firstName.slice(0,1);
+    let lastInitial = lastName.slice(0,1);
+    firstInitial = firstInitial.toUpperCase();
+    lastInitial = lastInitial.toUpperCase();
+    return `${firstInitial}.${lastInitial}`
+  }
+
+// Returning Strings
+function greet(name){
+    return `Hello, ${name} how are you doing today?`
+  }
+
+// Basic Mathematical Operations
+function basicOp(operation, value1, value2){
+    if(operation === '+'){
+       return value1 + value2}
+    else if(operation === '-'){
+        return value1 - value2}
+    else if(operation === '*' ){
+        return value1 * value2}
+    else{
+        return value1/value2
+    }
+  }
+
+// Convert a String to a Number!
+var stringToNumber = function(str){
+    // put your code here
+    return Number(str);
+  }
+
