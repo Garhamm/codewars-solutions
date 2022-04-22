@@ -106,8 +106,24 @@ var countSheep = function (num){
 }
 
 // 8 kyu Function 3 - multiplying two numbersasdf
-
 let multiply = function(num1, num2) {
   return num1 * num2;
+}
+
+// 8 kyu Cat years, Dog years
+var humanYearsCatYearsDogYears = function(humanYears) {
+  let catYears;
+  let dogYears;
+  if(humanYears === 1){
+    catYears = 15;
+    dogYears = 15;
+  }else if(humanYears === 2){
+    catYears = 24;
+    dogYears = 24;
+  }else if (humanYears > 2){
+    catYears = (4*(humanYears-2)) + 24
+    dogYears = (5*(humanYears-2)) + 24
+  }
+  return [humanYears, catYears, dogYears];
 }
 
