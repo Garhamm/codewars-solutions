@@ -127,3 +127,18 @@ var humanYearsCatYearsDogYears = function(humanYears) {
   return [humanYears, catYears, dogYears];
 }
 
+// 8 kyu
+// Quarter of the year
+
+const quarterOf = (month) => {
+  // Your code here
+  if([1, 2, 3].indexOf(month) > -1){
+    return 1
+  }else if([4,5,6].indexOf(month) > -1){
+    return 2
+  }else if([7,8,9].indexOf(month) > -1){
+    return 3
+  }else{
+    return 4
+  }
+} 
