@@ -77,10 +77,10 @@ class Character {
 const aurora = new Character("Aurora", 150, 25);
 const glacius = new Character("Glacius", 130, 30);
 const monster = new Character("Spike", 40, 20);
-
+const erica = new Character('Erica', 100, 2);
 
 //Practice Problem #3
-// Account List   --
+// Account List   --git
 // Was not able to get the accounts into an array like the problem wanted. .
 
 class BankAccount {
