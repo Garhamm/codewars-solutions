@@ -80,7 +80,7 @@ const monster = new Character("Spike", 40, 20);
 
 
 //Practice Problem #3
-// Account List   
+// Account List   --
 // Was not able to get the accounts into an array like the problem wanted. .
 
 class BankAccount {
